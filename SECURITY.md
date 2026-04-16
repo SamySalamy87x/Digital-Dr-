@@ -1,21 +1,36 @@
 # Security Policy
 
-## Supported Versions
+## Supported Version
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Digital Dr. is currently in active MVP development and this repository tracks **v0.1.x**.
+Security fixes are provided on the `main` branch.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Responsible Disclosure
 
-## Reporting a Vulnerability
+If you discover a vulnerability, please report it privately to:
 
-Use this section to tell people how to report a vulnerability.
+- **security@digital-dr.example** (placeholder)
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Please include:
+
+- A description of the issue
+- Steps to reproduce
+- Potential impact
+- Any suggested remediation
+
+We aim to acknowledge reports within **3 business days** and provide status updates until resolution.
+
+## Current Security Posture (v0.1)
+
+- The API in v0.1 is intended for educational and development use.
+- **No authentication/authorization is implemented yet.**
+- Do not expose this service directly to untrusted public traffic without additional protections.
+
+## Security Roadmap (v0.2)
+
+Planned hardening for v0.2 includes:
+
+- JWT-based API authentication
+- Role-based access controls for protected endpoints
+- Improved secret/configuration management guidance
+- Additional security-focused automated tests
