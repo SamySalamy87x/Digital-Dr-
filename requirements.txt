@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+httpx
+pytest
+pytest-cov
+tabulate
+ruff
