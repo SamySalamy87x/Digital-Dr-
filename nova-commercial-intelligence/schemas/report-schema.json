@@ -1,0 +1,55 @@
+{
+  "report_id": "string",
+  "report_type": "excel_comercial | word_ejecutivo | pdf_formal | whatsapp | crm_followup",
+  "created_at": "YYYY-MM-DDTHH:mm:ssZ",
+  "lead_summary": {
+    "company_or_chain": "string",
+    "hotel_name": "string",
+    "city": "string",
+    "hotel_category": "string",
+    "estimated_rooms": 0,
+    "objective": "string"
+  },
+  "diagnosis": {
+    "executive_summary": "string",
+    "detected_gaps": [],
+    "operational_risks": [],
+    "commercial_opportunities": []
+  },
+  "web_research": {
+    "was_requested": false,
+    "sources": [
+      {
+        "title": "string",
+        "url": "string",
+        "date_accessed": "YYYY-MM-DD",
+        "confidence": "alta | media | baja",
+        "notes": "string"
+      }
+    ],
+    "confirmed_findings": [],
+    "estimated_findings": [],
+    "pending_validation": []
+  },
+  "recommendations": [
+    {
+      "zone": "string",
+      "bundle_name": "string",
+      "products": [
+        {
+          "sku": "string",
+          "description": "string",
+          "use_case": "string",
+          "commercial_argument": "string",
+          "estimated_consumption": "string"
+        }
+      ],
+      "business_impact": "string",
+      "priority": "alta | media | baja"
+    }
+  ],
+  "next_steps": [
+    "string"
+  ],
+  "commercial_closing_message": "string"
+}
