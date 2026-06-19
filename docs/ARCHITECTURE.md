@@ -2,52 +2,50 @@
 
 ## Purpose
 
-Digital Dr is an applied AI healthcare-management prototype for doctors and healthcare teams. The platform is intended to support patient-record workflows, appointment coordination, medical-history documentation, and AI-assisted educational guidance.
+Digital Dr is an educational notes prototype. It provides a small Python command-line interface and a FastAPI service for local development and demonstration.
 
-## Product boundary
-
-Digital Dr is not a regulated medical device and must not be used for autonomous diagnosis, treatment decisions, emergency triage, or replacement of licensed clinical judgment.
-
-## Logical modules
+## Runtime structure
 
 ```text
-User Interface
-  ├─ Doctor dashboard
-  ├─ Patient profile views
-  ├─ Appointment management
-  └─ AI assistant interaction layer
+CLI
+  └─ digital_dr/cli.py
 
-Backend API
-  ├─ Authentication and authorization
-  ├─ Doctor and patient records
-  ├─ Appointment services
-  ├─ GPT conversation logging
-  └─ Billing/subscription hooks
+API
+  ├─ digital_dr/run_api.py
+  └─ digital_dr/api.py
 
-Data Layer
-  ├─ PostgreSQL core records
-  ├─ Audit logs
-  ├─ Conversation metadata
-  └─ Configuration tables
+Storage
+  ├─ digital_dr/db.py
+  └─ records.db
 
-Integrations
-  ├─ OpenAI / Custom GPT layer
-  ├─ PayPal billing
-  ├─ Google Calendar
-  └─ Optional communication providers
+Tests
+  ├─ tests/test_cli.py
+  └─ tests/test_api.py
 ```
 
-## Security controls required before production
+## Data flow
 
-- JWT authentication with strong secret management.
-- Password hashing with bcrypt or equivalent.
-- Role-based access control for doctors, admins, and patients.
-- Audit logging for patient-record access.
-- No real patient data in development repositories.
-- Environment variables stored outside Git.
-- HTTPS-only deployment.
-- Backup and restore procedures for database records.
+```text
+CLI or HTTP request
+  -> validation layer
+  -> storage adapter
+  -> SQLite database
+  -> response payload
+```
 
-## Data governance
+## Current scope
 
-Any production version must define privacy policy, consent model, retention policy, deletion workflow, and compliance requirements for the target jurisdiction before onboarding real users.
+- Local prototype.
+- Synthetic demonstration records.
+- CLI commands for greeting, recording, and listing entries.
+- REST API for health checks and record retrieval.
+
+## Production hardening backlog
+
+- Authentication.
+- Authorization.
+- Input validation.
+- Audit logging.
+- Backup and migration strategy.
+- Deployment pipeline.
+- Documentation for safe demo operation.
