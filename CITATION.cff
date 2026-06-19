@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Digital Dr: AI-assisted healthcare management platform prototype"
+type: software
+authors:
+  - family-names: "Perez Gallardo"
+    given-names: "Omar Rafael"
+    alias: "Samy Salamy"
+abstract: "Digital Dr is an applied AI healthcare-management prototype for doctor workflows, patient records, appointment coordination, medical-history documentation, and AI-assisted educational support."
+keywords:
+  - digital health
+  - healthcare management
+  - artificial intelligence
+  - patient records
+  - medical education
+  - applied AI
+license: MIT
+repository-code: "https://github.com/SamySalamy87x/Digital-Dr"
+version: "0.1.0-alpha"
+date-released: "2026-06-19"
