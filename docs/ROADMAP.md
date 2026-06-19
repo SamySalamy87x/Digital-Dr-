@@ -5,37 +5,35 @@
 - Add citation metadata.
 - Add changelog and release notes.
 - Add environment template.
-- Document architecture and product boundary.
+- Document architecture.
 - Prepare repository for Zenodo preservation.
 
-## v0.2.0 — Functional MVP
+## v0.2.0 — Prototype stabilization
 
-- Implement authenticated doctor accounts.
-- Implement patient CRUD with validation.
-- Implement appointment scheduling.
-- Implement GPT conversation logging.
-- Add unit and API tests.
+- Confirm CLI commands.
+- Confirm FastAPI endpoints.
+- Add stronger tests for storage behavior.
+- Add structured error responses.
+- Add example requests and responses.
 
-## v0.3.0 — Safety and compliance layer
+## v0.3.0 — Developer experience
 
-- Add role-based access control.
-- Add audit logging for record access.
-- Add export/delete workflows.
-- Add privacy and consent documentation.
-- Add rate limiting and abuse controls.
+- Add OpenAPI export.
+- Add Dockerfile.
+- Add local demo script.
+- Add CI checks for tests and linting.
+- Add sample synthetic dataset.
 
 ## v0.4.0 — Demo deployment
 
-- Deploy staging backend.
-- Deploy dashboard frontend.
-- Add seeded synthetic demo data.
-- Add demo walkthrough video/script.
-- Add performance and security checklist.
+- Add deployment notes.
+- Add staging instructions.
+- Add demo walkthrough.
+- Add release badge and DOI badge after Zenodo publication.
 
-## v1.0.0 — Commercial pilot
+## v1.0.0 — Documented prototype release
 
-- Pilot with synthetic or consented non-sensitive data only.
-- Add billing/subscription integration.
-- Add admin dashboard.
-- Add support workflow.
-- Complete legal/compliance review for production jurisdiction.
+- Complete documentation.
+- Complete tests.
+- Confirm license and citation metadata.
+- Publish stable release tag.
