@@ -2,7 +2,7 @@
 
 ## Repository
 
-`SamySalamy87x/Digital-Dr`
+`SamySalamy87x/Digital-Dr-`
 
 ## Target release
 
@@ -10,13 +10,13 @@
 
 ## Release title
 
-Digital Dr: AI-assisted healthcare management platform prototype
+Digital Dr: educational notes prototype with CLI and FastAPI
 
 ## Release description
 
-Digital Dr is an applied AI healthcare-management prototype for doctor workflows, patient records, appointment coordination, medical-history documentation, and AI-assisted educational support.
+Digital Dr is an educational software prototype with a Python CLI and FastAPI backend for recording and retrieving synthetic notes in a local development environment.
 
-This alpha release is intended for technical preservation and portfolio evidence. It is not a clinical product, medical device, or diagnostic system.
+This alpha release is intended for technical preservation and portfolio evidence.
 
 ## Zenodo checklist
 
@@ -25,7 +25,6 @@ This alpha release is intended for technical preservation and portfolio evidence
 - [x] Add `.env.example`.
 - [x] Add architecture documentation.
 - [x] Add roadmap documentation.
-- [ ] Confirm no real patient data is present.
 - [ ] Confirm no secrets are present.
 - [ ] Confirm license file exists.
 - [ ] Create GitHub release `v0.1.0-alpha`.
@@ -34,4 +33,4 @@ This alpha release is intended for technical preservation and portfolio evidence
 
 ## Suggested citation category
 
-Software / applied AI prototype / digital health workflow support.
+Software / educational prototype / FastAPI CLI demonstration.
