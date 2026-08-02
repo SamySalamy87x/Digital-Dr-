@@ -25,8 +25,8 @@ This alpha release is intended for technical preservation and portfolio evidence
 - [x] Add `.env.example`.
 - [x] Add architecture documentation.
 - [x] Add roadmap documentation.
-- [ ] Confirm no secrets are present.
-- [ ] Confirm license file exists.
+- [x] Confirm no secrets are present.
+- [x] Confirm license file exists.
 - [ ] Create GitHub release `v0.1.0-alpha`.
 - [ ] Activate repository in Zenodo.
 - [ ] Add generated DOI badge to README after Zenodo creates the DOI.
