@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Digital Dr: educational notes prototype with CLI and FastAPI"
+type: software
+authors:
+  - family-names: "Perez Gallardo"
+    given-names: "Omar Rafael"
+    alias: "Samy Salamy"
+abstract: "Digital Dr is an educational software prototype with a Python CLI and FastAPI backend for recording and retrieving synthetic notes in a local development environment."
+keywords:
+  - education
+  - FastAPI
+  - Python CLI
+  - SQLite
+  - prototype
+license: MIT
+repository-code: "https://github.com/SamySalamy87x/Digital-Dr-"
+version: "0.1.0-alpha"
+date-released: "2026-06-19"
